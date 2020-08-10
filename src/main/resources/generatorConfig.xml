@@ -39,7 +39,7 @@
             targetPackage="dao" implementationPackage="com/ahanxun/dao/"  targetProject="src/main/java/">
             <property name="enableSubPackages" value="true" />
         </javaClientGenerator>
-        <!-- 要生成哪些表1 -->
+        <!-- 要生成哪些表 -->
         <table tableName="act_evt_lo1" domainObjectName="ActEvtLog"
             enableCountByExample="false" enableUpdateByExample="false"
             enableDeleteByExample="false" enableSelectByExample="false"
